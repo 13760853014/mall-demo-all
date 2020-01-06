@@ -1,4 +1,4 @@
-package com.jianke.demo.entity;
+package com.jianke.demo.product.config.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;

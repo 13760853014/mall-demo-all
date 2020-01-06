@@ -12,6 +12,7 @@
         <module>mall-demo-utils</module>
         <module>mall-demo-common</module>
         <module>mall-coupon-service</module>
+        <module>mall-product-service</module>
     </modules>
 
     <parent>

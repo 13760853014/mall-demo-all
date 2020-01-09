@@ -1,7 +1,7 @@
 package com.jianke.demo.product.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.jianke.demo.product.config.entity.BaseEntity;
+import com.jianke.demo.entity.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;

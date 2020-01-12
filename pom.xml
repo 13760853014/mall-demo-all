@@ -14,6 +14,9 @@
         <module>mall-coupon-service</module>
         <module>mall-product-service</module>
         <module>mall-account-service</module>
+        <module>mall-eureka</module>
+        <module>malll-cart-service</module>
+        <module>mall-auth-service</module>
     </modules>
 
     <parent>
@@ -30,7 +33,15 @@
     </properties>
 
     <dependencyManagement>
-
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
     </dependencyManagement>
 
 

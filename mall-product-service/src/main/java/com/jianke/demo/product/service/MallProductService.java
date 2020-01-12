@@ -1,5 +1,6 @@
 package com.jianke.demo.product.service;
 
+import com.jianke.demo.exception.BaseException;
 import com.jianke.demo.param.MallProductParam;
 import com.jianke.demo.service.BaseMgmtService;
 import com.jianke.demo.vo.MallProductVo;
@@ -10,4 +11,5 @@ import com.jianke.demo.vo.MallProductVo;
  */
 public interface MallProductService extends BaseMgmtService<MallProductVo, MallProductParam> {
 
+    MallProductVo findBySkuCode(Long skuCode) throws BaseException;
 }

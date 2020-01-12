@@ -6,7 +6,7 @@ import com.jianke.demo.account.cache.DataCacheService;
 import com.jianke.demo.account.entity.MallAccount;
 import com.jianke.demo.account.mapper.MallAccountMapper;
 import com.jianke.demo.account.service.MallAccountService;
-import com.jianke.demo.account.utils.Constant;
+import com.jianke.demo.constant.Constant;
 import com.jianke.demo.account.utils.CookieUtil;
 import com.jianke.demo.exception.BaseException;
 import com.jianke.demo.exception.ValidateException;
@@ -21,17 +21,13 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @program: mall-share

@@ -1,5 +1,5 @@
 server:
-  port: 8082
+  port: 8083
 spring:
   profiles:
     active: dev
@@ -7,10 +7,10 @@ spring:
 spring:
   profiles: default
   application :
-    name: mall-product-service
+    name: mall-cart-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.24.30.6:3306/mall_product?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://172.24.30.6:3306/mall_cart?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
     username: root
     password: jianke@test123
     druid:

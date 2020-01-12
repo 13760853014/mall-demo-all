@@ -1,4 +1,4 @@
-package com.jianke.demo.account.utils;
+package com.jianke.demo.constant;
 
 /**
  * 常量类

@@ -1,7 +1,7 @@
 spring:
   profiles: dev
   application :
-    name: mall-product-service
+    name: mall-cart-service
   jackson:
     serialization:
       write-dates-as-timestamps: true
@@ -54,4 +54,3 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://${eurekaServer.user}:${eurekaServer.password}@${eurekaServer.host}:${eurekaServer.port}/eureka
-

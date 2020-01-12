@@ -37,6 +37,15 @@ public class MallProductServiceImpl extends BaseQueryServiceAdapter<MallProductV
         return BeanUtil.convert(product, MallProductVo.class);
     }
 
+    @Override
+    public MallProductVo findBySkuCode(Long skuCode) throws BaseException {
+        MallProduct product = mallProductMapper.selectOne(new QueryWrapper<MallProduct>().eq("sku_code", skuCode));
+        if (product == null) {
+            throw new BaseException("", "产品[" + skuCode + "]不存在");
+        }
+        return BeanUtil.convert(product, MallProductVo.class);
+    }
+
 
     @Override
     public MallProductVo save(MallProductVo vo) throws BaseException {

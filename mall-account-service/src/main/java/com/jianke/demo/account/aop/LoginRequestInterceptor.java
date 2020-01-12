@@ -1,7 +1,7 @@
 package com.jianke.demo.account.aop;
 
 import com.jianke.demo.account.cache.DataCacheService;
-import com.jianke.demo.account.utils.Constant;
+import com.jianke.demo.constant.Constant;
 import com.jianke.demo.account.utils.CookieUtil;
 import com.jianke.demo.exception.AccessException;
 import com.jianke.demo.vo.MallAccountVo;

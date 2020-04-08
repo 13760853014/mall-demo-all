@@ -10,9 +10,9 @@ spring:
     name: mall-share-service
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://172.24.30.6:3306/common_evaluate?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://127.0.0.1:3306/spring-boot?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
     username: root
-    password: jianke@test123
+    password: root
     druid:
        filters: stat
        max-active: 20

@@ -10,9 +10,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.106.81.219:30003/mall_coupon?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC
+    url: jdbc:mysql://127.0.0.1:3306/spring-boot?serverTimezone=UTC&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
     username: root
-    password: 123456
+    password: root
     druid:
        filters: stat
        max-active: 20
